@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>NB SKIN STUDIO — косметологическая студия</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container header__inner">
+    <div class="logo">NB<span>SKIN</span></div>
+
+    <nav class="nav" id="nav">
+      <a href="#hero" class="nav__link">Главная</a>
+      <a href="#about" class="nav__link">О студии</a>
+      <a href="#benefits" class="nav__link">Преимущества</a>
+      <a href="#services" class="nav__link">Услуги</a>
+      <a href="#reviews" class="nav__link">Отзывы</a>
+      <a href="#contact" class="nav__link">Контакты</a>
+    </nav>
+
+    <button class="btn btn--small header__btn" data-scroll="#contact">
+      Записаться
+    </button>
+
+    <button class="burger" id="burger">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="section hero" id="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__tag">Медицинская косметологическая студия</p>
+        <h1 class="hero__title">
+          Деликатная косметология<br>для здорового сияния кожи
+        </h1>
+        <p class="hero__subtitle">
+          Индивидуальные протоколы ухода, работа с чувствительной и проблемной кожей,
+          мягкие методики без агрессии — чтобы кожа светилась, а не страдала.
+        </p>
+        <div class="hero__actions">
+          <button class="btn" data-scroll="#contact">Записаться на консультацию</button>
+          <button class="btn btn--ghost" data-scroll="#services">Посмотреть услуги</button>
+        </div>
+
+        <div class="hero__stats">
+          <div class="hero-stat">
+            <span class="hero-stat__value">8+</span>
+            <span class="hero-stat__label">лет практики</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__value">1200+</span>
+            <span class="hero-stat__label">довольных клиентов</span>
+          </div>
+          <div class="hero-stat">
+            <span class="hero-stat__value">98%</span>
+            <span class="hero-stat__label">повторных записей</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual">
+        <!-- Фото мастера (можно заменить на своё) -->
+        <div class="hero__photo">
+          <img
+            src="https://balatskay.ru/img/47513007_1920_q70.webp"
+            alt="Косметолог за работой"
+          >
+        </div>
+        <div class="hero__note">
+          <p class="hero__name">Наталья Б.</p>
+          <p class="hero__role">врач-косметолог, основатель NB SKIN STUDIO</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section section--soft" id="about">
+    <div class="container about__inner">
+      <div class="about__image">
+        <img
+          src="https://images.pexels.com/photos/3738355/pexels-photo-3738355.jpeg?auto=compress&cs=tinysrgb&w=800"
+          alt="Интерьер косметологической студии"
+        >
+      </div>
+      <div class="about__content">
+        <h2 class="section__title">О студии</h2>
+        <p>
+          NB SKIN STUDIO — камерная косметологическая студия, где каждая процедура строится вокруг
+          ваших ощущений и реальных потребностей кожи. Мы работаем на сертифицированных препаратах,
+          сочетаем мягкие техники и продуманные протоколы.
+        </p>
+        <p>
+          Перед каждым курсом — детальная диагностика: тип кожи, текущее состояние, образ жизни и
+          домашний уход. Так мы получаем устойчивый результат без перегрузки кожи.
+        </p>
+
+        <div class="about__grid">
+          <div class="about-item">
+            <span class="about-item__label">Философия</span>
+            <p class="about-item__text">
+              Забота вместо агрессии: восстанавливаем, укрепляем, поддерживаем барьер.
+            </p>
+          </div>
+          <div class="about-item">
+            <span class="about-item__label">Формат</span>
+            <p class="about-item__text">
+              Уютное пространство, ограниченный поток клиентов, максимум внимания одному человеку.
+            </p>
+          </div>
+          <div class="about-item">
+            <span class="about-item__label">Поддержка</span>
+            <p class="about-item__text">
+              Сопровождаем после процедур, даём понятные рекомендации по уходу дома.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFITS -->
+  <section class="section" id="benefits">
+    <div class="container">
+      <h2 class="section__title section__title--center">Почему нам доверяют</h2>
+      <p class="section__subtitle section__subtitle--center">
+        Объединяем медицинский подход, деликатные методики и эстетичный результат.
+      </p>
+
+      <div class="benefits">
+        <article class="benefit-card">
+          <div class="benefit-card__icon">🤍</div>
+          <h3 class="benefit-card__title">Мягкий подход</h3>
+          <p class="benefit-card__text">
+            Выбираем протоколы, которые работают без травмирования и жёстких ощущений.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <div class="benefit-card__icon">🧪</div>
+          <h3 class="benefit-card__title">Сертифицированные препараты</h3>
+          <p class="benefit-card__text">
+            Используем только проверенные бренды с исследованиями и клинической базой.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <div class="benefit-card__icon">📋</div>
+          <h3 class="benefit-card__title">Прозрачные схемы</h3>
+          <p class="benefit-card__text">
+            Детально объясняем, что и зачем делаем, без навязывания лишних процедур.
+          </p>
+        </article>
+        <article class="benefit-card">
+          <div class="benefit-card__icon">🌿</div>
+          <h3 class="benefit-card__title">Поддержка дома</h3>
+          <p class="benefit-card__text">
+            Составляем простой, работающий домашний уход, который дополняет процедуры.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="section section--soft" id="services">
+    <div class="container">
+      <h2 class="section__title section__title--center">Услуги студии</h2>
+      <p class="section__subtitle section__subtitle--center">
+        Подбираем процедуры под ваш запрос: акне, чувствительность, возрастные изменения, тусклый тон.
+      </p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__image">
+            <img
+              src="assets/img/us1.jpg"
+              alt="Комбинированная чистка лица"
+            >
+          </div>
+          <h3 class="card__title">Комбинированная чистка лица</h3>
+          <p class="card__text">
+            Бережная чистка без сильной травматизации, с акцентом на восстановление и увлажнение.
+          </p>
+          <ul class="card__list">
+            <li>Мягкое глубинное очищение</li>
+            <li>Работа с воспалениями и комедонами</li>
+            <li>Сужение пор и выравнивание тона</li>
+          </ul>
+          <div class="card__footer">
+            <span class="card__price">от 3 500 ₽</span>
+            <button class="btn btn--small" data-scroll="#contact">Записаться</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__image">
+            <img
+              src="assets/img/us2.jpg"
+              alt="Пилинги"
+            >
+          </div>
+          <h3 class="card__title">Пилинги</h3>
+          <p class="card__text">
+            Курс поверхностных и срединных пилингов для выравнивания рельефа и уменьшения пост-акне.
+          </p>
+          <ul class="card__list">
+            <li>Осветление пигментации и пост-акне</li>
+            <li>Выравнивание текстуры кожи</li>
+            <li>Обновление и сияние</li>
+          </ul>
+          <div class="card__footer">
+            <span class="card__price">от 4 200 ₽</span>
+            <button class="btn btn--small" data-scroll="#contact">Записаться</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__image">
+            <img
+              src="assets/img/us3.jpg"
+              alt="SPA-уходы"
+            >
+          </div>
+          <h3 class="card__title">SPA-уходы</h3>
+          <p class="card__text">
+            Релакс-процедуры с акцентом на увлажнение, питание и мягкое лифтинг-действие.
+          </p>
+          <ul class="card__list">
+            <li>Глубокое увлажнение и комфорт</li>
+            <li>Анти-стресс уход для кожи</li>
+            <li>Приятные ритуалы с массажем</li>
+          </ul>
+          <div class="card__footer">
+            <span class="card__price">от 3 000 ₽</span>
+            <button class="btn btn--small" data-scroll="#contact">Записаться</button>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__image">
+            <img
+              src="assets/img/us4.jpg"
+              alt="Анти-эйдж программы"
+            >
+          </div>
+          <h3 class="card__title">Анти-эйдж программы</h3>
+          <p class="card__text">
+            Комплексный подход к возрастным изменениям: тонус, овал, мелкие морщины.
+          </p>
+          <ul class="card__list">
+            <li>Индивидуальные протоколы по возрасту</li>
+            <li>Поддержание тонуса и плотности кожи</li>
+            <li>Работа с тусклостью и сухостью</li>
+          </ul>
+          <div class="card__footer">
+            <span class="card__price">индивидуально</span>
+            <button class="btn btn--small" data-scroll="#contact">Записаться</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESULTS -->
+  <section class="section" id="results">
+    <div class="container">
+      <h2 class="section__title section__title--center">Результаты «до / после»</h2>
+      <p class="section__subtitle section__subtitle--center">
+        Обрабатываем кожу аккуратно, но последовательно — и фиксируем реальный прогресс.
+      </p>
+
+      <div class="results-grid">
+        <div class="result-card">
+          <div class="result-card__image">
+            <div class="before-after">
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/before-1.jpg"
+                  alt="До процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">До</span>
+              </div>
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/after-1.jpg"
+                  alt="После процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">После</span>
+              </div>
+            </div>
+          </div>
+          <p class="result-card__text">
+            Курс пилингов и уходов при пост-акне и неровном рельефе.
+          </p>
+        </div>
+
+        <div class="result-card">
+          <div class="result-card__image">
+            <div class="before-after">
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/before-2.jpg"
+                  alt="До процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">До</span>
+              </div>
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/after-2.jpg"
+                  alt="После процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">После</span>
+              </div>
+            </div>
+          </div>
+          <p class="result-card__text">
+            Восстановление барьера чувствительной кожи с покраснениями.
+          </p>
+        </div>
+
+        <div class="result-card">
+          <div class="result-card__image">
+            <div class="before-after">
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/before-3.jpg"
+                  alt="До процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">До</span>
+              </div>
+              <div class="before-after__col">
+                <img
+                  src="assets/img/before-after/after-3.jpg"
+                  alt="После процедуры"
+                  class="before-after__img"
+                >
+                <span class="before-after__label">После</span>
+              </div>
+            </div>
+          </div>
+          <p class="result-card__text">
+            Анти-эйдж курс: улучшение тонуса, сияние и более ровный тон.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="section section--soft" id="reviews">
+    <div class="container">
+      <h2 class="section__title section__title--center">Отзывы клиентов</h2>
+      <p class="section__subtitle section__subtitle--center">
+        Часть отзывов, которые мы получаем после процедур и курсов ухода.
+      </p>
+
+      <div class="reviews-slider">
+        <button class="slider-btn slider-btn--prev" id="reviews-prev">‹</button>
+        <div class="reviews-slider__content">
+          <p class="reviews-slider__text" id="reviews-text"></p>
+          <p class="reviews-slider__author" id="reviews-author"></p>
+        </div>
+        <button class="slider-btn slider-btn--next" id="reviews-next">›</button>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <p class="review-card__text">
+            «Очень спокойно и аккуратно, без боли и синяков. После чистки кожа не хочет прятаться под тональник».
+          </p>
+          <p class="review-card__author">— Анна, 32 года</p>
+        </article>
+        <article class="review-card">
+          <p class="review-card__text">
+            «Понравилось, что всё объясняют по шагам, а уход подобрали так, что наконец-то нет сухости и стянутости».
+          </p>
+          <p class="review-card__author">— Мария, 28 лет</p>
+        </article>
+        <article class="review-card">
+          <p class="review-card__text">
+            «Курс пилингов очень выровнял тон лица, пост-акне стали намного менее заметны, кожа светится».
+          </p>
+          <p class="review-card__author">— Екатерина, 26 лет</p>
+        </article>
+        <article class="review-card">
+          <p class="review-card__text">
+            «Хожу уже больше года: приятные ритуалы, видно, что заботятся и о коже, и о комфорте».
+          </p>
+          <p class="review-card__author">— Ольга, 35 лет</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT + MAP -->
+  <section class="section" id="contact">
+    <div class="container contact__inner">
+      <div class="contact-block">
+        <h2 class="section__title">Записаться на приём</h2>
+        <p class="contact__text">
+          Оставьте свои контакты и коротко опишите запрос — мы свяжемся с вами, чтобы подобрать удобное время и формат процедуры.
+        </p>
+
+        <form class="form" id="form">
+          <label class="form__field">
+            <span>Имя</span>
+            <input type="text" name="name" placeholder="Ваше имя" required>
+          </label>
+          <label class="form__field">
+            <span>Телефон</span>
+            <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </label>
+          <label class="form__field">
+            <span>Комментарий</span>
+            <textarea name="message" rows="3" placeholder="Какая процедура интересует?"></textarea>
+          </label>
+          <button type="submit" class="btn">Отправить заявку</button>
+          <p class="form__note">
+            Нажимая на кнопку, вы соглашаетесь с обработкой персональных данных.
+          </p>
+          <p class="form__success" id="form-success">
+            Спасибо! Мы свяжемся с вами в ближайшее время.
+          </p>
+        </form>
+
+        <div class="contact__info">
+          <p><strong>Телефон:</strong> +7 (900) 000-00-00</p>
+          <p><strong>Telegram:</strong> @nb_skin_studio</p>
+          <p><strong>Instagram*:</strong> @nb.skin</p>
+          <p class="contact__hint">*Запрещённая в РФ соцсеть, при необходимости можно заменить.</p>
+        </div>
+      </div>
+
+      <div class="map-block">
+        <h2 class="section__title">Как меня найти</h2>
+        <p class="map-block__text">
+          Медицинская косметологическая студия «NB SKIN STUDIO» расположена по адресу:
+          г. Москва, Ленинский пр-т, 45, подъезд 2.
+        </p>
+
+        <div class="map-wrapper">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?ll=37.573856%2C55.709074&z=16&mode=search&text=Москва%2C%20Ленинский%20проспект%2C%2045"
+            width="100%"
+            height="280"
+            frameborder="0"
+            allowfullscreen="true"
+          ></iframe>
+        </div>
+
+        <div class="map-block__details">
+          <p><strong>Метро рядом:</strong> Ленинский проспект</p>
+          <p><strong>Ориентир:</strong> подъезд 2, дом с бежевым фасадом, отдельный вход в студию.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span>© 2025 NB SKIN STUDIO. Все права защищены.</span>
+    <span>Москва, Ленинский пр-т, 45.</span>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
